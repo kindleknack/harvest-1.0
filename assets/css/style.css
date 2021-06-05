@@ -1159,18 +1159,13 @@ hr {
   color: #ff60ce;
   font-size: 40px;
   font-weight: 700;
-  text-transform: uppercase;
   margin-bottom: 5px
-}
-.sup-col{
-  color: #ff60ce;
 }
 
 .slider-area .hero-footer p {
   color: #fff;
   font-size: 20px;
   font-weight: 400;
-  text-transform: uppercase
 }
 
 .hero-overly {
