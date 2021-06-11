@@ -1279,32 +1279,11 @@ hr {
   }
 }
 
-.schedule-wrapper .schedule-items {
-  display: -webkit-box;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
-  display: flex;
-  justify-content: space-between;
-  padding: 23px 0;
-  border-bottom: 1px dashed rgba(255, 255, 255, .2)
-}
-
-@media (max-width:575px) {
-  .schedule-wrapper .schedule-items {
-    -webkit-flex-wrap: wrap;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap
+@media (max-width:550px) {
+  .schedule-area .schedule-wrapper{
+    padding-top: 0px;
+    padding-bottom: 0px;
   }
-}
-
-.schedule-wrapper .schedule-items .schedule-left {
-  display: -webkit-box;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
-  display: flex;
-  align-items: center
 }
 
 
