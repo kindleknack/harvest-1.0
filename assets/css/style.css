@@ -188,7 +188,7 @@ hr {
 
 @media (max-width:575px) {
   #back-top {
-    right: 16px
+    right: 8px
   }
 }
 
@@ -1477,6 +1477,17 @@ ul.footer-social li .twt {
   }
 }
 
+#pinnacle img{
+  padding: 0;
+  border-radius: 20px;
+}
+
+@media (max-width:550px) {
+  #pinnacle img{
+    height: 35vh;
+  }
+}
+
 .brand-area {
   position: relative
 }
@@ -1532,7 +1543,7 @@ ul.footer-social li .twt {
   }
   .brand-area .container .col-xl-4{
     margin-bottom: 30px;
-    width: 80%;
+    width: 70%;
     margin: auto;
   }
   .brand-area .container .row h4{
